@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Los Videojuegos</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width, initial-scale=1.0">
+  <title>Los Videojuegos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-  <body>
+<body>
 
-    <!--Aquí comienza el encabezado-->
+  <!--Aquí comienza el encabezado-->
 
-    <header>
+  <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Los Videojuegos</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Incio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ubicación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Acerca de</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Los Videojuegos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Incio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<!--Aquí comienza la portada-->
+    <!--Aquí comienza la portada-->
 
-<div class="cover d-flex d-flex justify-content-center d-flex align-items-center flex-column">
-    <h1>Los Videojuegos</h1>
-    <p>El mejor videojugador</p> 
-    <button type="button" class="btn btn-outline-danger">Conoce más</button>
-</div>
+    <div class="cover d-flex d-flex justify-content-center d-flex align-items-center flex-column">
+      <h1>Los Videojuegos</h1>
+      <p>El mejor videojugador</p>
+      <button type="button" class="btn btn-outline-danger">Conoce más</button>
+    </div>
 
-    </header>
-    <!--Aquí empieza el cuerpo de la página-->
-    <section>
-      <div class="container mt-5 mb-5">
-        <div>
-          <div>
-            <div class="card">
-              <div title="Videojuego que para mí es uno de los más realistas." class="cover cover-small" 
-              style="background-image: url(img/pubg.jpg);">
-            </div>
-            <div class="card-body">
-              <h5 class="card-tittle">PUBG</h5>
-              <p class="card-text">Uno de los videojuegos más realistas.</p>
-              <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
-            </div>
-            </div>
-
-            <div class="card">
-              <div title="Lo más curioso de Minecraft." class="cover cover-small" 
-              style="background-image: url(img/minecraft.jpeg);">
-            </div>
-            <div class="card-body">
-              <h5 class="card-tittle">Minecraft</h5>
-              <p class="card-text">Uno de los videojuegos más exitosos.</p>
-              <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
-            </div>
+  </header>
+  <!--Aquí empieza el cuerpo de la página-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <!--esta es la primera tarjeta-->
+        <div class="col">
+        <div class="card" style="width: 20rem;">
+          <div title="Videojuego que para mí es uno de los más realistas." class="cover cover-small"
+            style="background-image: url(img/pubg.jpg);">
           </div>
-
-          <div class="card">
-            <div title="El juego de los animatronicos." class="cover cover-small" 
+          <div class="card-body">
+            <h5 class="card-tittle">PUBG</h5>
+            <p class="card-text">Uno de los videojuegos más realistas.</p>
+            <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
+          </div>
+        </div>
+        </div>
+        <!--esta es la segunda tarjeta-->
+        <div class="col">
+        <div class="card" style="width: 20rem;">
+          <div title="Lo más curioso de Minecraft." class="cover cover-small"
+            style="background-image: url(img/minecraft.jpeg);">
+          </div>
+          <div class="card-body">
+            <h5 class="card-tittle">Minecraft</h5>
+            <p class="card-text">Uno de los videojuegos más exitosos.</p>
+            <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
+          </div>
+        </div>
+        </div>
+        <!--esta es la tercera tarjeta-->
+        <div class="col">
+        <div class="card" style="width: 20rem;">
+          <div title="El juego de los animatronicos." class="cover cover-small"
             style="background-image: url(img/Five\ Nights\ at\ Freddy´s.jpg);">
           </div>
           <div class="card-body">
@@ -81,25 +89,28 @@
             <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
           </div>
         </div>
-
-        <div class="card">
-          <div title="El juego de battle royale." class="cover cover-small" 
-          style="background-image: url(img/fortnite.jpg);">
         </div>
-        <div class="card-body">
-          <h5 class="card-tittle">Fortnite</h5>
-          <p class="card-text">Uno de los videojuegos más famosos.</p>
-          <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
-        </div>
-      </div>
-
+        <!--esta es la cuarta tarjeta-->
+        <div class="col">
+        <div class="card" style="width: 20rem;">
+          <div title="El juego de battle royale." class="cover cover-small"
+            style="background-image: url(img/fortnite.jpg);">
+          </div>
+          <div class="card-body">
+            <h5 class="card-tittle">Fortnite</h5>
+            <p class="card-text">Uno de los videojuegos más famosos.</p>
+            <div class="card-footer text-muted">Videojuegos, Videojugadores y más...</div>
           </div>
         </div>
+        </div>
+
       </div>
-    </section>
+    </div>
+
+  </section>
 
 </body>
 
 
 
-   </html>
+</html>
