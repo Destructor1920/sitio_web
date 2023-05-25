@@ -1,7 +1,8 @@
-body{
-margin: 0em;
+body {
+    margin: 0em;
 }
-.cover{
+
+.cover {
 
     height: 400px;
     background-image: url("../img/portada.jpg");
@@ -10,15 +11,31 @@ margin: 0em;
     background-position: center;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: darken;
-} 
+}
+
 .cover-small {
     height: 200px;
     background-blend-mode: normal;
 }
+
 .card {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px  rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
+
 .card-title {
     font-family: ´Dancing scrip´, cursive;
     min-height: 3rem;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+#img4 {
+    max-width: 100%;
+    height: auto;
 }
