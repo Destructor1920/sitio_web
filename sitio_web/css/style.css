@@ -39,3 +39,16 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+.product-stripe{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.stripe-container{
+    display: flex;
+}
+.stripe-container .card {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
