@@ -34,6 +34,7 @@ h1 {
     font-family: 'Lobster', cursive;
     font-family: 'Pacifico', cursive;
 }
+
 h5 {
     font-family: 'Kalam', cursive;
 }
@@ -42,14 +43,17 @@ h5 {
     max-width: 100%;
     height: auto;
 }
-.product-stripe{
+
+.product-stripe {
     overflow-x: scroll;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.stripe-container{
+
+.stripe-container {
     display: flex;
 }
+
 .stripe-container .card {
     width: 300px;
     flex-shrink: 0;
@@ -60,6 +64,7 @@ h5 {
     position: relative;
     padding-top: 56.25%;
 }
+
 .responsive-iframe iframe {
     position: absolute;
     top: 0;
